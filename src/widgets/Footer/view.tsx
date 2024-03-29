@@ -23,7 +23,7 @@ export default function Footerview() {
             <div>
               <div className="flex justify-center text-white lg:justify-start">
                 <Image
-                  src="/images/logos/csks/csks_logowhite.png"
+                  src="/images/logos/csks/logo_white.svg"
                   alt={imageAlts.CSKS_LOGO}
                   width={150}
                   height={30}
