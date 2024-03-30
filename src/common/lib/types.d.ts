@@ -3,5 +3,5 @@ export interface Children {
 }
 
 export interface IconProps {
-    className: string
+    className: string;
 }
