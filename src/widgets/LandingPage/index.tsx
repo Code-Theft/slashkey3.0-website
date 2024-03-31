@@ -7,6 +7,6 @@
  * @author Janajith D
  */
 
-import LandingPageview from "@widgets/LandingPage/view";
-export default LandingPageview;
+import LandingPage from "@widgets/LandingPage/view";
+export default LandingPage;
 
