@@ -9,12 +9,15 @@ module.exports = {
   ],
   theme: {
     colors: {
+      slk: {
+        regular: "#133c25",
+        light: "#239254",
+      },
       colloquiumOrange: "#febc65",
       ColloquiumOrangeNormal: "#ff9100",
       colloquiumOrangeLight: "#fff9f1",
       white: "#ffffff",
       black: {
-
         100: "#111111",
         200: "#222222",
         300: "#333333",
