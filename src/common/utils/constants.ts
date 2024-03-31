@@ -13,7 +13,7 @@ export const constants = {
 };
 
 export const imageAlts = {
-  LOGO: "Colloquium Logo",
+  LOGO: "Slashkey Logo",
   CSKS_LOGO: "IEEE Computer Society Kerala Chapter",
   VENUE: "Park Centre, Technopark",
 };
@@ -25,6 +25,55 @@ export const navigation = [
   { name: "Speakers", href: "/#speakers" },
   // { name: "Sponsors", href: "#" },
   { name: "Contact", href: "/contact" },
+];
+
+export const editionOptions = [
+  {
+    name: "Slash Key 2.0",
+    imgSrc: "/images/logos/colloquium/black.png",
+    alt: "Slash Key 2.0 Logo",
+    href: "",
+  },
+  {
+    name: "Slash Key 1.0",
+    imgSrc: "/images/logos/colloquium/black.png",
+    alt: "Slash Key 1.0 Logo",
+  },
+];
+
+export const navLinks = [
+  {
+    name: "Home",
+    url: "/",
+  },
+  {
+    name: "About",
+    url: "/about",
+  },
+  {
+    name: "Tracks",
+    url: "/tracks",
+  },
+  {
+    name: "Prizes",
+    url: "/prizes",
+  },
+  {
+    name: "Guidelines",
+    url: "/rules",
+  },
+  {
+    name: "Sponsors",
+    url: "/sponsors",
+  },
+  {
+    name: "FAQs",
+    url: "/faq",
+  },
+  {
+    name: "Contact",
+    url: "/contact",
+  },
 ];
 
 export const aboutUs = [

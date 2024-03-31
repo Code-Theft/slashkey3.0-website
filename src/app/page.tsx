@@ -16,7 +16,7 @@ import LandingPageview from "@widgets/LandingPage";
 export default function Home() {
   return (
     <>
-      <LandingPageview />
+      {/* <LandingPageview /> */}
       <FeatureView />
       <Speaker />
       <Sponsors />

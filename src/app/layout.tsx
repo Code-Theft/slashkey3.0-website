@@ -15,9 +15,9 @@ import Header from "@widgets/Header";
 import Footer from "@widgets/Footer";
 
 export const metadata: Metadata = {
-  title: "Colloquium24",
+  title: "Slash Key 3.0",
   description:
-    "Colloquium is an annual event by the IEEE Computer Society Kerala Chapter, serves as a premier networking platform for IEEE and non-IEEE professionals. This repository serves as the foundation for our team to build and maintain the Colloquium website.The website developed using NextJS - App Router, TypeScript and Tailwind CSS.",
+    "Slash Key is a 30-hour offline hackathon organized by the IEEE Computer Society Kerala Chapter, which aims to bring together aspiring developers, coders and tech enthusiasts from various backgrounds to collaborate and create cutting edge solutions.",
 };
 
 export default function RootLayout({ children }: Children) {
