@@ -8,8 +8,8 @@
  */
 
 import React from "react";
-import AboutPageView from "@widgets/About";
+import AboutPage from "@widgets/About";
 
 export default function About() {
-  return <AboutPageView />;
+  return <AboutPage />;
 }
