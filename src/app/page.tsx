@@ -8,18 +8,12 @@
  */
 
 import React from "react";
-import Speaker from "@widgets/Speakers";
-import Sponsors from "@widgets/Sponsors";
-import FeatureView from "@widgets/Feature";
-import LandingPageview from "@widgets/LandingPage";
+import LandingPage from "@widgets/LandingPage/view";
 
 export default function Home() {
   return (
     <>
-      {/* <LandingPageview /> */}
-      <FeatureView />
-      <Speaker />
-      <Sponsors />
+      <LandingPage />
     </>
   );
 }

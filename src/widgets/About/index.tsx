@@ -7,6 +7,5 @@
  * @author Abhishek Santhosh
  */
 
-import AboutPageView from "@widgets/About/view";
-export default AboutPageView;
-
+import AboutPage from "@widgets/About/view";
+export default AboutPage;

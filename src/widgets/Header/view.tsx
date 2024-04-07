@@ -9,17 +9,15 @@
 
 "use client";
 
-import { Fragment, useState } from "react";
 import dynamic from "next/dynamic";
 import Link from "@components/Link";
 import Image from "@components/Image";
-import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import Icon3Bars from "@icons/Icon3Bars";
-import ColloquiumLogo from "@icons/ColloquiumLogo";
-import IconChevronDown from "@icons/IconChevronDown";
-import IconClose from "@icons/IconClose";
-import { editionOptions, navLinks } from "@utils/constants";
+import { Fragment, useState } from "react";
 import SlashKeyLogo from "@components/Logo";
+import IconChevronDown from "@icons/IconChevronDown";
+import { Popover, Transition } from "@headlessui/react";
+import { editionOptions, navLinks } from "@utils/constants";
 const NavMobileView = dynamic(
   () => import("@widgets/Header/components/NavMobileView")
 );
@@ -90,10 +88,7 @@ export default function Header() {
                           height={60}
                         />
                       </div>
-                      <div className="flex-shrink">
-                        {item?.name}
-                        {/* className="block font-semibold text-gray-900" */}
-                      </div>
+                      <div className="flex-shrink">{item?.name}</div>
                     </div>
                   ))}
                 </div>
