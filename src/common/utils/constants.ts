@@ -60,7 +60,7 @@ export const navLinks = [
   },
   {
     name: "Guidelines",
-    url: "/rules",
+    url: "/guidelines",
   },
   {
     name: "Sponsors",
