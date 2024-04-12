@@ -32,12 +32,13 @@ export const editionOptions = [
     name: "Slash Key 2.0",
     imgSrc: "/images/logos/colloquium/black.png",
     alt: "Slash Key 2.0 Logo",
-    href: "",
+    href: "/editions/slashkey2.0",
   },
   {
     name: "Slash Key 1.0",
     imgSrc: "/images/logos/colloquium/black.png",
     alt: "Slash Key 1.0 Logo",
+    href: "/editions/slashkey1.0",
   },
 ];
 
