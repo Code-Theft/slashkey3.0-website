@@ -40,14 +40,14 @@ const contact = [
 ];
 export default function ContactView() {
   return (
-    <section className="bg-colloquiumOrangeLight">
+    <section>
       <div className="max-w-screen-xl px-4 py-20 mx-auto lg:px-6 sm:py-16 lg:py-24">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-4xl font-extrabold leading-tight tracking-tight text-black-100">
+      <div className="flex flex-col items-center py-10">
+                <h2 className="text-4xl font-extrabold leading-tight tracking-tight text-black-100 justify-center">
             Contact
           </h2>
         </div>
-        <div className="flex flex-wrap justify-center py-8">
+        <div className="flex flex-wrap justify-center py-1">
           {contact?.map((item) => (
             <div
               className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow m-4"
@@ -68,7 +68,7 @@ export default function ContactView() {
                 <div className="flex mt-4 md:mt-6">
                   <a
                     href={`mailto:${item?.mail}`}
-                    className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-ColloquiumOrangeNormal rounded-lg hover:bg-colloquiumOrange focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-slk-regular rounded-lg hover:bg-slk-light focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
                     <IconMail className="mr-2 w-6 h-6" />
                     E-Mail

@@ -9,5 +9,5 @@
  */
 
 
-import SponsorsView from "@widgets/Sponsors/view";
-export default SponsorsView;
+import GuidelinesView from "@widgets/Guidelines/view";
+export default GuidelinesView;

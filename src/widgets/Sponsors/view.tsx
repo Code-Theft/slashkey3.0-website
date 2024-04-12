@@ -45,10 +45,10 @@ const sponsors = [
   },
 ];
 
-export default function Sponsors() {
+export default function SponsorsView() {
   return (
     <>
-      <section className="bg-white">
+      <section className="bg-white max-w-screen-xl px-4 py-20 mx-auto lg:px-6 sm:py-16 lg:py-24">
         <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
           <h2 className="mb-8 lg:mb-16 text-3xl font-bold tracking-tight leading-tight text-center text-gray-900 md:text-4xl">
             In Association with

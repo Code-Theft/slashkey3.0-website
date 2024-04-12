@@ -9,5 +9,5 @@
  */
 
 
-import SponsorsView from "@widgets/Sponsors/view";
-export default SponsorsView;
+import TracksView from "@widgets/Tracks/view";
+export default TracksView;
