@@ -42,12 +42,12 @@ export default function ContactView() {
   return (
     <section>
       <div className="max-w-screen-xl px-4 py-20 mx-auto lg:px-6 sm:py-16 lg:py-24">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-4xl font-extrabold leading-tight tracking-tight text-black-100">
+      <div className="flex flex-col items-center py-10">
+                <h2 className="text-4xl font-extrabold leading-tight tracking-tight text-black-100 justify-center">
             Contact
           </h2>
         </div>
-        <div className="flex flex-wrap justify-center py-8">
+        <div className="flex flex-wrap justify-center py-1">
           {contact?.map((item) => (
             <div
               className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow m-4"
