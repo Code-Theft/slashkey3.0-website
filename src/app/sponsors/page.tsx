@@ -7,7 +7,7 @@
  * @author Nayana
  */
 
-import SponsorsView from "@widgets/Sponsors/view";
+import SponsorsView from "@widgets/Sponsors";
 import React from "react";
 
 export default function Sponsors() {

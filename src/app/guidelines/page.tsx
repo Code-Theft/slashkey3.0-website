@@ -7,7 +7,7 @@
  * @author Nayana
  */
 
-import GuidelinesView from "@widgets/Guidelines/view";
+import GuidelinesView from "@widgets/Guidelines";
 import React from "react";
 
 export default function Guidelines() {

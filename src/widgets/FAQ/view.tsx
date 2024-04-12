@@ -12,26 +12,47 @@ import React, {useState} from "react";
 import Image from "@components/Image";
 import IconChevronDown from "@icons/IconChevronDown";
 const faqs = [
-  {
-    id: 1,
-    question: "What is a hackathon?",
-    answer: "A hackathon is an event where individuals or teams collaborate intensively to create innovative solutions, typically software or hardware projects, within a limited timeframe.",
-  },
-  {
-    id: 2,
-    question: "Who can participate in the hackathon?",
-    answer: "Anyone passionate about technology, including developers, designers, entrepreneurs, and students, can participate in the hackathon. There are no specific prerequisites, and diversity in skills and backgrounds is encouraged.",
-  },
-  {
-    id: 3,
-    question: "How long does the hackathon last?",
-    answer: "The hackathon typically lasts for 24 to 48 hours, allowing participants to brainstorm, develop, and present their projects within this timeframe.",
-  },
-  {
-    id: 4,
-    question: "What kind of projects can I work on during the hackathon?",
-    answer: "Participants can work on a wide range of projects, including but not limited to soft"
-  }
+    {
+      id: 1,
+      question: "Who can participate in the hackathon?",
+      answer: "Teams of 3 or 4 members are eligible to participate."
+    },
+    {
+      id: 2,
+      question: "What should participants bring to the event?",
+      answer: "Each member should bring their laptops for use during the hackathon."
+    },
+    {
+      id: 3,
+      question: "How long is the hackathon?",
+      answer: "The event spans 30 hours, held on May 27th and 28th, 2023."
+    },
+    {
+      id: 4,
+      question: "How are the event phases structured?",
+      answer: "The first 6 hours are dedicated to ideation, followed by 20-22 hours for building and development. The last 2 hours are for presentations."
+    },
+    {
+      id: 5,
+      question: "Is there a refund policy for registration fees?",
+      answer: "No, refunds are not provided once registered, regardless of participation."
+    },
+    {
+      id: 6,
+      question: "Who evaluates the progress of the teams during the hackathon?",
+      answer: "The organizing committee conducts progress evaluations every 6 hours."
+    },
+    {
+      id: 7,
+      question: "How are winners determined?",
+      answer: "Winners are selected based on the presentations of qualified teams at the end of the hackathon."
+    },
+    {
+      id: 8,
+      question: "What happens if there are ties or disputes?",
+      answer: "The decisions of the organizing committee are final and binding in all matters related to the event."
+    }
+  
 ];
 
 export default function FAQView() {

@@ -7,9 +7,9 @@
  * @author Nayana
  */
 
-import FAQView from "@widgets/FAQ/view";
+import FAQView from "@widgets/FAQ";
 import React from "react";
 
-export default function faq() {
+export default function Faq() {
   return <FAQView />;
 }

@@ -61,26 +61,89 @@ export default function GuidelinesView() {
                 <div>
                   <ul className="max-w-5xl space-y-1 text-gray-700 list-disc list-inside dark:text-gray-400 mt-10 mb-20 mx-5">
                     <li className="list-disc marker:text-slk-light">
-                    A team of 3 or 4 members can only participate in the hackathon.
+                      <strong>Event Details:</strong>
+                      <ul className="list-disc marker:text-gray-600 ml-10">
+                        <li>
+                          Slash Key is a 30-hour offline hackathon organized by the IEEE Computer Society Kerala Chapter and hosted by IEEE CS SBC CUSAT.
+                        </li>
+                        <li>
+                          Date: May 27th and 28th, 2023.
+                        </li>
+                        <li>
+                          Prize Pool: 50K and exciting goodies for all registered teams.
+                        </li>
+                      </ul>
                     </li>
                     <li className="list-disc marker:text-slk-light">
-                    The team members are expected to bring laptops for their use.
+                      <strong>Team Composition:</strong>
+                      <ul className="list-disc marker:text-gray-600 ml-10">
+                        <li>
+                          Teams must consist of 3 or 4 members.
+                        </li>
+                        <li>
+                          Each member should bring their laptops for use during the hackathon.
+                        </li>
+                      </ul>
                     </li>
                     <li className="list-disc marker:text-slk-light">
-                    I hereby provide my consent to the organizers to use my contact details provided in the form to contact me for updates regarding this event.
+                      <strong>Event Phases:</strong>
+                      <ul className="list-disc marker:text-gray-600 ml-10">
+                        <li>
+                          <strong>Ideation Phase (First 6 hours):</strong>
+                          <ul className="list-disc marker:text-gray-500 ml-10">
+                            <li>
+                              Participants brainstorm ideas on provided themes and problem statements.
+                            </li>
+                            <li>
+                              Professional mentors available for guidance.
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <strong>Building Phase (20-22 hours):</strong>
+                          <ul className="list-disc marker:text-gray-500 ml-10">
+                            <li>
+                              Teams work on developing their solutions.
+                            </li>
+                            <li>
+                              Progress evaluation every 6 hours.
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <strong>Presentation Phase (Last 2 hours):</strong>
+                          <ul className="list-disc marker:text-gray-500 ml-10">
+                            <li>
+                              Qualified teams present their solutions.
+                            </li>
+                            <li>
+                              Winners announced after presentations.
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
                     </li>
                     <li className="list-disc marker:text-slk-light">
-                    I hereby provide my consent to the organizers of the event to use the contact details provided in the form to contact me for updates regarding future events conducted by the IEEE Computer Society Kerala Chapter.
+                      <strong>Consent and Terms:</strong>
+                      <ul className="list-disc marker:text-gray-600 ml-10">
+                        <li>
+                          No refunds are provided once registered, regardless of participation.
+                        </li>
+                        <li>
+                          By registering, participants consent to the use of their contact details for event updates.
+                        </li>
+                        <li>
+                          Consent is also given for future event updates by IEEE Computer Society Kerala Chapter.
+                        </li>
+                        <li>
+                          Participants agree to the terms and conditions and commit to enthusiastic participation.
+                        </li>
+                      </ul>
                     </li>
                     <li className="list-disc marker:text-slk-light">
-                    You are not eligible for a refund once you have registered for the event regardless of your participation in the event.
+                      <strong>Decision Authority:</strong> The organizing committee's decisions are final and binding.
                     </li>
-                    <li className="list-disc marker:text-slk-light">
-                    I hereby agree with the terms and conditions and assure my enthusiastic participation in this event.
-                    </li>
-                    <li className="list-disc marker:text-slk-light">
-                    The decision of the organizing committee will be final and binding
-                    </li>
+
                   </ul>
                 </div>
               </div>
