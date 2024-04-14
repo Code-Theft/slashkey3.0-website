@@ -25,6 +25,10 @@ const NavMobileView = dynamic(
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
 
+  const handleCloseMobileMenu = (): void => {
+    setMobileMenuOpen(false);
+  };
+
   return (
     <header className="fixed inset-x-0 top-0 z-50 custom-header">
       <nav
@@ -111,7 +115,7 @@ export default function Header() {
       </nav>
       <NavMobileView
         mobileMenuOpen={mobileMenuOpen}
-        setMobileMenuOpen={setMobileMenuOpen}
+        handleCloseMobileMenu={handleCloseMobileMenu}
       />
     </header>
   );
