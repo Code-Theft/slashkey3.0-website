@@ -20,6 +20,9 @@ export const imageAlts = {
   SLK1_GROUP_PHOTO: "Slash Key 1.0 Wrap up photo.",
   SLK1_WINNER: "Slash Key 1.0 Winners Team ASTROID",
   SLK1_RUNNER_UP: "Slash Key 1.0 Runner Up Team Parippuvada Overflow",
+  SLK2_WINNER: "Slash Key 2.0 Winners",
+  SLK2_RUNNER_UP1: "Slash Key 2.0 Runner Up Team Parippuvada Overflow",
+  SLK2_RUNNER_UP2: "Slash Key 2.0 Runner Up Team Pixel",
 };
 
 export const navigation = [
