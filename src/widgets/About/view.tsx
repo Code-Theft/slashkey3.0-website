@@ -43,7 +43,7 @@ export default function AboutPageView() {
               Slash Key
             </p>
 
-            <p className="mt-6 text-md text-justify leading-8 text-gray-800">
+            <p className="mt-6 text-md text-justify leading-8 text-white">
               Slash Key is a 30 hr Hackathon presented by IEEE CS Kerala
               Chapter, which aims to bring together aspiring developers, coders
               and tech enthusiasts from various backgrounds to collaborate and
@@ -51,15 +51,6 @@ export default function AboutPageView() {
               successfully completed in the previous years.
             </p>
           </div>
-          {/* <div className="overflow-hidden">
-            <Image
-              src="/images/assets/venue.jpg"
-              alt={imageAlts.VENUE}
-              className="hidden sm:block w-full h-auto rounded-xl shadow-xl"
-              width={1216}
-              height={516}
-            />
-          </div> */}
         </div>
         {/*  About CS KS*/}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 m-8 py-8">

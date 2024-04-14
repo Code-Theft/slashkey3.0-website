@@ -8,42 +8,6 @@
  */
 
 import React from "react";
-import Image from "@components/Image";
-
-const sponsors = [
-  {
-    id: 1,
-    name: "SADA",
-    path: "/images/assets/sponsors/sada-black.png",
-    alt: "SADA, An Insight company",
-    height: 30,
-    width: 120,
-  },
-  {
-    id: 2,
-    name: "Gtech MuLearn",
-    path: "/images/assets/sponsors/mulearn.png",
-    alt: "MuLearn",
-    height: 30,
-    width: 110,
-  },
-  {
-    id: 3,
-    name: "IEEE Kerala Section",
-    path: "/images/assets/sponsors/kerala-section-black.png",
-    alt: "MuLearn",
-    height: 30,
-    width: 137,
-  },
-  {
-    id: 4,
-    name: "IEEE YP AG Kerala Section",
-    path: "/images/assets/sponsors/yp-black.png",
-    alt: "MuLearn",
-    height: 60,
-    width: 106,
-  },
-];
 
 export default function GuidelinesView() {
   return (
@@ -51,37 +15,35 @@ export default function GuidelinesView() {
       <section>
         <div className="max-w-screen-xl px-4 py-20 mx-auto lg:px-6 sm:py-16 lg:py-24">
           <div className="flex flex-wrap  py-8">
-            <div
-              className="w-full  bg-white border border-gray-200 rounded-lg shadow m-4"
-            >
+            <div className="w-full  bg-white border border-slk-light rounded-lg shadow m-4">
               <div className="flex flex-col items-center py-10">
-                <h2 className="text-4xl font-extrabold leading-tight tracking-tight text-black-100 justify-center">
+                <h2 className="text-4xl font-extrabold leading-tight tracking-tight text-slk-regular justify-center">
                   Guidelines
                 </h2>
                 <div>
-                  <ul className="max-w-5xl space-y-1 text-gray-700 list-disc list-inside dark:text-gray-400 mt-10 mb-20 mx-5">
+                  <ul className="max-w-5xl space-y-1 text-gray-700 list-disc list-inside mt-10 mb-20 mx-5">
                     <li className="list-disc marker:text-slk-light">
                       <strong>Event Details:</strong>
                       <ul className="list-disc marker:text-gray-600 ml-10">
                         <li>
-                          Slash Key is a 30-hour offline hackathon organized by the IEEE Computer Society Kerala Chapter and hosted by IEEE CS SBC CUSAT.
+                          Slash Key is a 30-hour offline hackathon organized by
+                          the IEEE Computer Society Kerala Chapter and hosted by
+                          IEEE CS SBC CUSAT.
                         </li>
+                        <li>Date: May 27th and 28th, 2023.</li>
                         <li>
-                          Date: May 27th and 28th, 2023.
-                        </li>
-                        <li>
-                          Prize Pool: 50K and exciting goodies for all registered teams.
+                          Prize Pool: 50K and exciting goodies for all
+                          registered teams.
                         </li>
                       </ul>
                     </li>
                     <li className="list-disc marker:text-slk-light">
                       <strong>Team Composition:</strong>
                       <ul className="list-disc marker:text-gray-600 ml-10">
+                        <li>Teams must consist of 3 or 4 members.</li>
                         <li>
-                          Teams must consist of 3 or 4 members.
-                        </li>
-                        <li>
-                          Each member should bring their laptops for use during the hackathon.
+                          Each member should bring their laptops for use during
+                          the hackathon.
                         </li>
                       </ul>
                     </li>
@@ -92,7 +54,8 @@ export default function GuidelinesView() {
                           <strong>Ideation Phase (First 6 hours):</strong>
                           <ul className="list-disc marker:text-gray-500 ml-10">
                             <li>
-                              Participants brainstorm ideas on provided themes and problem statements.
+                              Participants brainstorm ideas on provided themes
+                              and problem statements.
                             </li>
                             <li>
                               Professional mentors available for guidance.
@@ -102,23 +65,15 @@ export default function GuidelinesView() {
                         <li>
                           <strong>Building Phase (20-22 hours):</strong>
                           <ul className="list-disc marker:text-gray-500 ml-10">
-                            <li>
-                              Teams work on developing their solutions.
-                            </li>
-                            <li>
-                              Progress evaluation every 6 hours.
-                            </li>
+                            <li>Teams work on developing their solutions.</li>
+                            <li>Progress evaluation every 6 hours.</li>
                           </ul>
                         </li>
                         <li>
                           <strong>Presentation Phase (Last 2 hours):</strong>
                           <ul className="list-disc marker:text-gray-500 ml-10">
-                            <li>
-                              Qualified teams present their solutions.
-                            </li>
-                            <li>
-                              Winners announced after presentations.
-                            </li>
+                            <li>Qualified teams present their solutions.</li>
+                            <li>Winners announced after presentations.</li>
                           </ul>
                         </li>
                       </ul>
@@ -127,23 +82,27 @@ export default function GuidelinesView() {
                       <strong>Consent and Terms:</strong>
                       <ul className="list-disc marker:text-gray-600 ml-10">
                         <li>
-                          No refunds are provided once registered, regardless of participation.
+                          No refunds are provided once registered, regardless of
+                          participation.
                         </li>
                         <li>
-                          By registering, participants consent to the use of their contact details for event updates.
+                          By registering, participants consent to the use of
+                          their contact details for event updates.
                         </li>
                         <li>
-                          Consent is also given for future event updates by IEEE Computer Society Kerala Chapter.
+                          Consent is also given for future event updates by IEEE
+                          Computer Society Kerala Chapter.
                         </li>
                         <li>
-                          Participants agree to the terms and conditions and commit to enthusiastic participation.
+                          Participants agree to the terms and conditions and
+                          commit to enthusiastic participation.
                         </li>
                       </ul>
                     </li>
                     <li className="list-disc marker:text-slk-light">
-                      <strong>Decision Authority:</strong> The organizing committee's decisions are final and binding.
+                      <strong>Decision Authority:</strong> The organizing
+                      committee's decisions are final and binding.
                     </li>
-
                   </ul>
                 </div>
               </div>
