@@ -24,7 +24,7 @@ export default function GuidelinesView() {
                   <ul className="max-w-5xl space-y-1 text-gray-700 list-disc list-inside mt-10 mb-20 mx-5">
                     <li className="list-disc marker:text-slk-light">
                       <strong>Event Details:</strong>
-                      <ul className="list-disc marker:text-gray-600 ml-10">
+                      <ul className="list-disc marker:text-gray-600 ml-10 guidelines">
                         <li>
                           Slash Key is a 30-hour offline hackathon organized by
                           the IEEE Computer Society Kerala Chapter and hosted by
@@ -37,9 +37,9 @@ export default function GuidelinesView() {
                         </li>
                       </ul>
                     </li>
-                    <li className="list-disc marker:text-slk-light">
+                    <li className="list-disc marker:text-slk-light pt-5">
                       <strong>Team Composition:</strong>
-                      <ul className="list-disc marker:text-gray-600 ml-10">
+                      <ul className="list-disc marker:text-gray-600 ml-10 guidelines">
                         <li>Teams must consist of 3 or 4 members.</li>
                         <li>
                           Each member should bring their laptops for use during
@@ -47,12 +47,12 @@ export default function GuidelinesView() {
                         </li>
                       </ul>
                     </li>
-                    <li className="list-disc marker:text-slk-light">
+                    <li className="list-disc marker:text-slk-light pt-5">
                       <strong>Event Phases:</strong>
-                      <ul className="list-disc marker:text-gray-600 ml-10">
+                      <ul className="list-disc marker:text-gray-600 ml-10 guidelines">
                         <li>
                           <strong>Ideation Phase (First 6 hours):</strong>
-                          <ul className="list-disc marker:text-gray-500 ml-10">
+                          <ul className="list-disc marker:text-gray-500 ml-10 ">
                             <li>
                               Participants brainstorm ideas on provided themes
                               and problem statements.
@@ -78,9 +78,9 @@ export default function GuidelinesView() {
                         </li>
                       </ul>
                     </li>
-                    <li className="list-disc marker:text-slk-light">
+                    <li className="list-disc marker:text-slk-light pt-5">
                       <strong>Consent and Terms:</strong>
-                      <ul className="list-disc marker:text-gray-600 ml-10">
+                      <ul className="list-disc marker:text-gray-600 ml-10 guidelines">
                         <li>
                           No refunds are provided once registered, regardless of
                           participation.
@@ -99,7 +99,7 @@ export default function GuidelinesView() {
                         </li>
                       </ul>
                     </li>
-                    <li className="list-disc marker:text-slk-light">
+                    <li className="list-disc marker:text-slk-light pt-5">
                       <strong>Decision Authority:</strong> The organizing
                       committee's decisions are final and binding.
                     </li>
