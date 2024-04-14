@@ -34,7 +34,7 @@ export default function AboutPageView() {
     <div className="overflow-hidden py-24 sm:py-32 bg-white">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/*  About Slash Key */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 m-8 py-8">
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-16 m-8 py-8">
           <div>
             <h2 className="text-base font-semibold leading-7 text-indigo-600">
               About
@@ -51,7 +51,7 @@ export default function AboutPageView() {
               successfully completed in the previous years.
             </p>
           </div>
-          <div className="overflow-hidden">
+          {/* <div className="overflow-hidden">
             <Image
               src="/images/assets/venue.jpg"
               alt={imageAlts.VENUE}
@@ -59,7 +59,7 @@ export default function AboutPageView() {
               width={1216}
               height={516}
             />
-          </div>
+          </div> */}
         </div>
         {/*  About CS KS*/}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 m-8 py-8">

@@ -12,7 +12,7 @@ import Link from "@components/Link";
 
 export default function HeroView() {
   return (
-    <div className="relative isolate px-6 pt-14 lg:px-8">
+    <div className="relative isolate px-6 pt-14 lg:px-8 mt-20">
       <div className="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
           <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-300">
