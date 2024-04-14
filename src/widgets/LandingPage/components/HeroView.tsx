@@ -11,7 +11,7 @@ import React from "react";
 import Link from "@components/Link";
 import { constants } from "@utils/constants";
 
-export default function Content() {
+export default function HeroView() {
   return (
     <div className="relative isolate px-6 pt-14 lg:px-8">
       <div className="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56">
