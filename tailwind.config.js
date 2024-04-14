@@ -12,7 +12,13 @@ module.exports = {
       slk: {
         regular: "#133c25",
         light: "#239254",
+        black: {
+          100: "#161617",
+          200: "#151515",
+          300: "#0B0B0C",
+        },
       },
+
       colloquiumOrange: "#febc65",
       ColloquiumOrangeNormal: "#ff9100",
       colloquiumOrangeLight: "#fff9f1",

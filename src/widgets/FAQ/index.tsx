@@ -9,5 +9,5 @@
  */
 
 
-import FAQView from "./view";
+import FAQView from "@widgets/FAQ/view";
 export default FAQView;
