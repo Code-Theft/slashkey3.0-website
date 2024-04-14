@@ -15,21 +15,17 @@ export default function Content() {
   return (
     <div className="relative isolate px-6 pt-14 lg:px-8">
       <div className="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56">
-        <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-          <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-black-600">
-            IEEE CS SYP Kerala Chapter presents
-          </div>
-        </div>
         <div className="text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-ColloquiumOrangeNormal sm:text-6xl">
-            Colloquium'24
+          <h1
+            className="hero glitch1 layerstext-4xl font-bold tracking-tight text-7xl"
+            data-text="SLASH KEY 3.0"
+          >
+            <span>SLASH KEY 3.0</span>
           </h1>
-          <p className="mt-6 text-sm leading-8 text-black-600">
-            COLLOQUIUM, an annual event by the IEEE Computer Society Kerala
-            Chapter, serves as a premier networking platform for IEEE and
-            non-IEEE professionals, offering a unique opportunity to share
-            insights, stay abreast of industry trends, and facilitate
-            interactions across diverse technological domains.
+          <p className="mt-6 text-sm leading-8 text-gray-300">
+            A 30-hour hackathon that offers students from across Kerala the
+            opportunity to solve real-world challenges of society and showcase
+            their innovative solutions.
           </p>
           <div className="mt-10 flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6">
             <Link
