@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 
 const path = require("path");
-const withVideos = require("next-videos");
 
 const nextConfig = {
   sassOptions: {
@@ -18,4 +17,3 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
-module.exports = withVideos();
