@@ -6,9 +6,9 @@
  *
  * @author Janajith D
  */
-import React from "react";
-import SlashkeyTwoView from "@widgets/Editions/SlashKey2";
 
-export default function Slashkey2() {
-  return <SlashkeyTwoView />;
+import React from "react";
+
+export default function SlashkeyTwoView() {
+  return <div>view</div>;
 }
