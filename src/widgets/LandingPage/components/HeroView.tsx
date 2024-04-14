@@ -9,7 +9,6 @@
 
 import React from "react";
 import Link from "@components/Link";
-import { constants } from "@utils/constants";
 
 export default function HeroView() {
   return (
