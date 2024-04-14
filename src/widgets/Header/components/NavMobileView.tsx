@@ -18,7 +18,7 @@ import SlashKeyLogo from "@components/Logo";
 
 interface NavMobileViewProps {
   mobileMenuOpen: boolean;
-  setMobileMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  handleCloseMobileMenu: () => void;
 }
 
 function classNames(...classes: string[]) {
@@ -27,14 +27,14 @@ function classNames(...classes: string[]) {
 
 export default function NavMobileView({
   mobileMenuOpen,
-  setMobileMenuOpen,
+  handleCloseMobileMenu,
 }: NavMobileViewProps) {
   return (
     <Dialog
       as="div"
       className="lg:hidden"
       open={mobileMenuOpen}
-      onClose={setMobileMenuOpen}
+      onClose={handleCloseMobileMenu}
     >
       <div className="fixed inset-0 z-10" />
       <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
@@ -43,7 +43,7 @@ export default function NavMobileView({
           <button
             type="button"
             className="-m-2.5 rounded-md p-2.5 text-gray-700"
-            onClick={() => setMobileMenuOpen(false)}
+            onClick={handleCloseMobileMenu}
           >
             <span className="sr-only">Close menu</span>
             <IconClose className="h-6 w-6" aria-hidden="true" />
@@ -57,6 +57,7 @@ export default function NavMobileView({
                   href={item?.url}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   key={`navlink_Key${index + 1}`}
+                  onClick={handleCloseMobileMenu}
                 >
                   {item?.name}
                 </Link>
@@ -79,8 +80,9 @@ export default function NavMobileView({
                         <Disclosure.Button
                           key={item.name}
                           as="a"
-                          href={item?.imgSrc}
+                          href={item?.href}
                           className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                          onClick={handleCloseMobileMenu}
                         >
                           {item?.name}
                         </Disclosure.Button>
