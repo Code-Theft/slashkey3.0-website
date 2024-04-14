@@ -17,6 +17,9 @@ export const imageAlts = {
   CSKS_LOGO: "IEEE Computer Society Kerala Chapter",
   VENUE: "Park Centre, Technopark",
   IKS_AMG_2023: "IKS AGM 2023 Pic",
+  SLK1_GROUP_PHOTO: "Slash Key 1.0 Wrap up photo.",
+  SLK1_WINNER: "Slash Key 1.0 Winners Team ASTROID",
+  SLK1_RUNNER_UP: "Slash Key 1.0 Runner Up Team Parippuvada Overflow",
 };
 
 export const navigation = [
@@ -29,13 +32,13 @@ export const navigation = [
 export const editionOptions = [
   {
     name: "Slash Key 2.0",
-    imgSrc: "/images/logos/colloquium/black.png",
+    imgSrc: "/images/assets/slashkey1/slk1.png",
     alt: "Slash Key 2.0 Logo",
     href: "/editions/slashkey2.0",
   },
   {
     name: "Slash Key 1.0",
-    imgSrc: "/images/logos/colloquium/black.png",
+    imgSrc: "/images/assets/slashkey1/slk1.png",
     alt: "Slash Key 1.0 Logo",
     href: "/editions/slashkey1.0",
   },

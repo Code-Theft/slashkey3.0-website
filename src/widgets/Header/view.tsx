@@ -80,17 +80,18 @@ export default function Header() {
                     >
                       <Link href={item?.href} className="flex items-center">
                         {/* Wrap image and content in Link */}
-                        <div className="flex h-4 w-12 flex-none items-center justify-center rounded-lg">
+                        <div className="flex h-4 w-12 flex-none items-center justify-center rounded-lg mr-4">
                           <Image
                             src={item?.imgSrc as string}
                             alt={item?.alt}
-                            // Task: Adjust Image Size accordingly
-                            className="h-6 w-10 text-gray-600 group-hover:text-indigo-600"
+                            className="h-6 w-12"
                             width={180}
                             height={60}
                           />
                         </div>
-                        <div className="flex-shrink">{item?.name}</div>
+                        <div className="flex-shrink text-gray-600 group-hover:text-slk-light">
+                          {item?.name}
+                        </div>
                       </Link>
                     </div>
                   ))}
