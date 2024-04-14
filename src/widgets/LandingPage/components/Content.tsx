@@ -15,6 +15,11 @@ export default function Content() {
   return (
     <div className="relative isolate px-6 pt-14 lg:px-8">
       <div className="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56">
+        <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+          <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-300">
+            IEEE CS Kerala Chapter presents
+          </div>
+        </div>
         <div className="text-center">
           <h1
             className="hero glitch1 layerstext-4xl font-bold tracking-tight text-7xl"
@@ -29,14 +34,14 @@ export default function Content() {
           </p>
           <div className="mt-10 flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6">
             <Link
-              href={constants.REGISTER_LINK}
-              className="rounded-md border boder-indigo bg-black-300 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-colloquiumOrange  hover:text-black-300 transition duration-300 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              href="#"
+              className="rounded-md border boder-indigo bg-slk-light px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-slk-regular transition duration-300 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Register Now
             </Link>
             <Link
               href="/about"
-              className="mt-4 lg:mt-0 text-sm font-semibold leading-6 text-black hover:text-colloquiumOrange transition duration-300 ease-in-out"
+              className="mt-4 lg:mt-0 text-sm font-semibold leading-6 text-white hover:text-gray-400 transition duration-300 ease-in-out"
             >
               Learn more <span aria-hidden="true">→</span>
             </Link>

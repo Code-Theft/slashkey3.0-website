@@ -40,3 +40,11 @@
     moveRightToLeft 20s ease-in-out 2s alternate;
   animation-iteration-count: infinite;
 }
+
+.homeVideo {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
