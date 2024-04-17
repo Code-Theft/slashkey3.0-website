@@ -10,7 +10,7 @@
 import React from "react";
 
 
-export default function TracksView() {
+export default function PrizesView() {
   return (
     <>
       <section>
@@ -21,7 +21,7 @@ export default function TracksView() {
             >
               <div className="flex flex-col items-center py-10">
                 <h2 className="text-4xl font-extrabold leading-tight tracking-tight text-black-100 justify-center">
-                Tracks
+                Prizes
                 </h2>
                 <div>
   

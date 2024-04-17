@@ -10,17 +10,23 @@
 import React from "react";
 import Video from "@core/Video";
 import HeroView from "@widgets/LandingPage/components/HeroView";
+import CallForHost from "./components/CallForHostView";
+import CallForHostView from "./components/CallForHostView";
 
 export default function LandingPageview() {
   return (
     <>
+    
       <div className="bg-slk-black-200 relative overflow-hidden w-full min-h-screen">
         <Video className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-1 bg-black-100 opacity-80" />
         <div className="container m-auto px-6 py-20 md:pb-0 md:pt-40 md:px-12 lg:py-0 lg:px-10 relative z-10">
           <HeroView />
+      <CallForHostView />
+
         </div>
       </div>
+      
     </>
   );
 }
