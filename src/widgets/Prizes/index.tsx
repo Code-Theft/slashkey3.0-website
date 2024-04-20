@@ -9,5 +9,6 @@
  */
 
 
-import TracksView from "@widgets/Tracks/view";
-export default TracksView;
+
+import PrizesView from "@widgets/Prizes/view";
+export default PrizesView;

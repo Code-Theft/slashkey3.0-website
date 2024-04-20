@@ -10,7 +10,7 @@
 import React from "react";
 
 
-export default function PrizesView() {
+export default function TracksView() {
   return (
     <>
       <section>
@@ -19,15 +19,18 @@ export default function PrizesView() {
             <div
               className="w-full m-4"
             >
+
+
               <div className="flex flex-col items-center py-10">
                 <h2 className="text-4xl font-extrabold leading-tight tracking-tight text-black-100 justify-center">
-                Prizes
+                  Tracks
                 </h2>
-                <div>
-  
+              </div>
+              {/* <div className="max-w-sm p-6 bg-slk-dark border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
 
-              </div>
-              </div>
+                <p className="font-bold text-gray-800 text-center">Sustainability</p>
+
+              </div> */}
             </div>
           </div>
         </div>

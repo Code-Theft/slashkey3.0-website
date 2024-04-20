@@ -12,10 +12,11 @@ module.exports = {
       slk: {
         regular: "#133c25",
         light: "#239254",
+        dark: "#d5e6dc",
         black: {
           100: "#161617",
           200: "#151515",
-          300: "#0B0B0C",
+          300: "#0B0B0C"
         },
       },
 
