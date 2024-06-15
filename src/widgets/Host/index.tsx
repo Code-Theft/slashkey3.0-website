@@ -7,15 +7,6 @@
  * @author Janajith D
  */
 
-import React from "react";
-import LandingPage from "@widgets/LandingPage/view";
-import HostPage from "@widgets/Host";
+import HostPage from "@widgets/Host/view";
+export default HostPage;
 
-export default function Home() {
-  return (
-    <>
-      <LandingPage />
-      <HostPage />
-    </>
-  );
-}

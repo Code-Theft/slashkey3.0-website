@@ -57,20 +57,8 @@ export const navLinks = [
     url: "/about",
   },
   {
-    name: "Tracks",
-    url: "/tracks",
-  },
-  {
-    name: "Prizes",
-    url: "/prizes",
-  },
-  {
     name: "Guidelines",
     url: "/guidelines",
-  },
-  {
-    name: "Sponsors",
-    url: "/sponsors",
   },
   {
     name: "FAQs",

@@ -1,6 +1,7 @@
+import { IconProps } from "@lib/types";
 import React from "react";
 
-export default function IconLocation() {
+const IconLocation: React.FC<IconProps> = (props) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -8,7 +9,7 @@ export default function IconLocation() {
       viewBox="0 0 24 24"
       strokeWidth="1.5"
       stroke="currentColor"
-      className="absolute left-1 top-1 h-5 w-5 text-ColloquiumOrangeNormal"
+      {...props}
     >
       <path
         strokeLinecap="round"
@@ -23,3 +24,5 @@ export default function IconLocation() {
     </svg>
   );
 }
+
+export default IconLocation;

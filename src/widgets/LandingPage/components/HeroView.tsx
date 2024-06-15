@@ -9,6 +9,8 @@
 
 import React from "react";
 import Link from "@components/Link";
+import IconLocation from "@icons/IconLocation";
+import IconCalendar from "@icons/IconCalendar";
 
 export default function HeroView() {
   return (
@@ -45,8 +47,24 @@ export default function HeroView() {
               Learn more <span aria-hidden="true">→</span>
             </Link>
           </div>
+          <div className="mt-32 flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-96 ">
+            <div className="flex flex-col items-center">
+            <div className="flex flex-row items-center">
+            <IconLocation className="text-slk-light w-10" /> 
+            <h1 className="ml-2 text-2xl font-semibold text-gray-500">Host</h1>
+            </div>
+            <h1 className="m-3 text-3xl font-semibold text-gray-300">NIT Calicut</h1>
+            </div>
+            <div className="flex flex-col items-center">
+            <div className="flex flex-row items-center">
+            <IconCalendar className="text-slk-light w-10" /> 
+            <h1 className="ml-3 text-2xl font-semibold text-gray-500">Date</h1>
+            </div>
+            <h1 className="m-3 text-3xl font-semibold text-gray-300">July 19 - 20</h1>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+      </div>
   );
 }

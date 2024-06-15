@@ -4,18 +4,20 @@
  * This code is the property of IEEE CS Kerala Chapter and is protected by copyright law.
  * Unauthorized use, reproduction, or distribution is strictly prohibited.
  *
- * @author Janajith D
+ * @author Nayana S
  */
 
 import React from "react";
-import LandingPage from "@widgets/LandingPage/view";
-import HostPage from "@widgets/Host";
-
-export default function Home() {
+import Image from "@components/Image";
+import Link from "@components/Link";
+export default function HostView() {
   return (
-    <>
-      <LandingPage />
-      <HostPage />
-    </>
+    <div>
+
+{/*  */}
+
+
+</div>
+
   );
 }

@@ -21,8 +21,24 @@ const contact = [
     mail: "janajithd@ieee.org",
     contact: "8078058944",
   },
+  // {
+  //   id: 2,
+  //   name: "Sabareesh K",
+  //   role: "Joint-Secretary Industry, IEEE CS Kerala Chapter",
+  //   img: "/images/assets/contact/jana.png",
+  //   mail: "sabareeshk55@gmail.com",
+  //   contact: "9946425732",
+  // },
   {
     id: 2,
+    name: "Devanarayanan SV",
+    role: "Student Representative, IEEE CS Kerala Chapter",
+    img: "/images/assets/contact/jana.png",
+    mail: "devanarayanansv@ieee.org",
+    contact: "9495861692",
+  },
+  {
+    id: 3,
     name: "Akhil Raj",
     role: " Secretary, IEEE CS Kerala Chapter",
     img: "/images/assets/contact/akhil.png",
@@ -30,7 +46,7 @@ const contact = [
     contact: "7356047629",
   },
   {
-    id: 3,
+    id: 4,
     name: "Dr. Deepthi Sasidharan",
     role: "Chair, IEEE CS Kerala Chapter",
     img: "/images/assets/contact/deepthi.png",
