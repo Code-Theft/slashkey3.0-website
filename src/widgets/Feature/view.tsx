@@ -34,7 +34,7 @@ const features: FeatureProps[] = [
   {
     name: "Venue : ",
     description: "Travancore Hall, Park Centre, Technopark Phase I",
-    icon: <IconLocation />,
+    icon: <IconLocation className=""/>,
   },
 ];
 

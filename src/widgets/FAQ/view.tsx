@@ -26,7 +26,7 @@ const faqs = [
   {
     id: 3,
     question: "How long is the hackathon?",
-    answer: "The event spans 30 hours, held on May 27th and 28th, 2023.",
+    answer: "The event spans 30 hours, held on July 19th and 20th, 2024.",
   },
   {
     id: 4,
