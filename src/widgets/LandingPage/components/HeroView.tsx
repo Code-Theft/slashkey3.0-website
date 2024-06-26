@@ -35,7 +35,8 @@ export default function HeroView() {
           </p>
           <div className="mt-10 flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6">
             <Link
-              href="#"
+              href="https://www.yepdesk.com/slashkey-3-0"
+              target="_blank"
               className="rounded-md border boder-indigo bg-slk-light px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-slk-regular transition duration-300 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Register Now
