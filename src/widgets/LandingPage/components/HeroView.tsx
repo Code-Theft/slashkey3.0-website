@@ -48,20 +48,20 @@ export default function HeroView() {
               Learn more <span aria-hidden="true">→</span>
             </Link>
           </div>
-          <div className="mt-32 flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-96 ">
-            <div className="flex flex-col items-center">
+          <div className="mt-32 flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-96">
+            <div className="flex flex-col items-center mb-20 sm:mb-0">
             <div className="flex flex-row items-center">
-            <IconLocation className="text-slk-light w-10" /> 
-            <h1 className="ml-2 text-2xl font-semibold text-gray-500">Host</h1>
+            <IconLocation className="text-slk-light w-8 lg:w-10" /> 
+            <h1 className="ml-2 text-xl lg:text-2xl font-semibold text-gray-500">Host</h1>
             </div>
-            <h1 className="m-3 text-3xl font-semibold text-gray-300">NIT Calicut</h1>
+            <h1 className="m-3 text-2xl lg:text-3xl font-semibold text-gray-300">NIT Calicut</h1>
             </div>
             <div className="flex flex-col items-center">
             <div className="flex flex-row items-center">
             <IconCalendar className="text-slk-light w-10" /> 
-            <h1 className="ml-3 text-2xl font-semibold text-gray-500">Date</h1>
+            <h1 className="ml-3 text-xl lg:text-2xl font-semibold text-gray-500">Date</h1>
             </div>
-            <h1 className="m-3 text-3xl font-semibold text-gray-300">July 19 - 20</h1>
+            <h1 className="m-3 text-2xl lg:text-3xl font-semibold text-gray-300">July 19 - 20</h1>
             </div>
           </div>
         </div>
