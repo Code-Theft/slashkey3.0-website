@@ -15,6 +15,14 @@ import Image from "@components/Image";
 const contact = [
   {
     id: 1,
+    name: "Devanarayanan SV",
+    role: "Student Representative, IEEE CS Kerala Chapter",
+    img: "/images/assets/contact/devan.png",
+    mail: "devanarayanansv@ieee.org",
+    contact: "9495861692",
+  },
+  {
+    id: 2,
     name: "Janajith D",
     role: "Joint-Secretary YP, IEEE CS Kerala Chapter",
     img: "/images/assets/contact/jana.png",
@@ -29,14 +37,6 @@ const contact = [
   //   mail: "sabareeshk55@gmail.com",
   //   contact: "9946425732",
   // },
-  {
-    id: 2,
-    name: "Devanarayanan SV",
-    role: "Student Representative, IEEE CS Kerala Chapter",
-    img: "/images/assets/contact/jana.png",
-    mail: "devanarayanansv@ieee.org",
-    contact: "9495861692",
-  },
   {
     id: 3,
     name: "Akhil Raj",
@@ -58,8 +58,8 @@ export default function ContactView() {
   return (
     <section>
       <div className="max-w-screen-xl px-4 py-20 mx-auto lg:px-6 sm:py-16 lg:py-24">
-      <div className="flex flex-col items-center py-10">
-                <h2 className="text-4xl font-extrabold leading-tight tracking-tight text-black-100 justify-center">
+        <div className="flex flex-col items-center py-10">
+          <h2 className="text-4xl font-extrabold leading-tight tracking-tight text-black-100 justify-center">
             Contact
           </h2>
         </div>
