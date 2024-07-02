@@ -40,10 +40,19 @@ export default function GuidelinesView() {
                     <li className="list-disc marker:text-slk-light pt-5">
                       <strong>Team Composition:</strong>
                       <ul className="list-disc marker:text-gray-600 ml-10 guidelines">
-                        <li>Teams must consist of 3 or 4 members.</li>
                         <li>
-                          Each member should bring their laptops for use during
-                          the hackathon.
+                          Participants can either form teams of up to 4 members
+                          or choose to participate individually. All
+                          participants, whether in a team or individual, must be
+                          registered accordingly.
+                        </li>
+                        <li>
+                          The team members are expected to bring laptops for
+                          their use.
+                        </li>
+                        <li>
+                          All the team members have to register individually on
+                          Yepdesk.
                         </li>
                       </ul>
                     </li>
@@ -82,20 +91,24 @@ export default function GuidelinesView() {
                       <strong>Consent and Terms:</strong>
                       <ul className="list-disc marker:text-gray-600 ml-10 guidelines">
                         <li>
-                          No refunds are provided once registered, regardless of
-                          participation.
+                          By registering for the hackathon, the participant
+                          shall thereby provide their consent to the organizers
+                          to use his/her contact details provided in the form to
+                          contact him/her for updates regarding this event
                         </li>
                         <li>
-                          By registering, participants consent to the use of
-                          their contact details for event updates.
+                          By registering for the hackathon, the participant
+                          shall thereby provide his/her consent to the
+                          organizers of the event to use the contact details
+                          provided in the form to contact him/her for updates
+                          regarding future events conducted by the IEEE Computer
+                          Society Kerala Chapter.
                         </li>
                         <li>
-                          Consent is also given for future event updates by IEEE
-                          Computer Society Kerala Chapter.
-                        </li>
-                        <li>
-                          Participants agree to the terms and conditions and
-                          commit to enthusiastic participation.
+                          By registering for the hackathon, the participants
+                          shall thereby agree with the terms and conditions and
+                          assure his/her enthusiastic participation in this
+                          event.
                         </li>
                       </ul>
                     </li>
