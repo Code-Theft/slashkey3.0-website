@@ -13,6 +13,8 @@ import HeroView from "@widgets/LandingPage/components/HeroView";
 import CallForHost from "./components/CallForHostView";
 import CallForHostView from "./components/CallForHostView";
 import OurHostView from "../Host/view";
+import Sponsors from "@widgets/Sponsors/view";
+import FeatureView from "./components/FeatureView";
 
 export default function LandingPageview() {
   return (
@@ -25,7 +27,8 @@ export default function LandingPageview() {
           <HeroView />
         </div>
       </div>
-      
+      <FeatureView />
+      <Sponsors />
     </>
   );
 }

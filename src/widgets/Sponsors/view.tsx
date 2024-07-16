@@ -13,64 +13,41 @@ import Image from "@components/Image";
 const sponsors = [
   {
     id: 1,
-    name: "SADA",
-    path: "/images/assets/sponsors/sada-black.png",
-    alt: "SADA, An Insight company",
-    height: 30,
-    width: 120,
+    path: "/images/assets/sponsors/xyz-white-logo.svg",
+    alt: "xyz",
+    height: 70,
+    width: 170,
   },
   {
     id: 2,
-    name: "Gtech MuLearn",
-    path: "/images/assets/sponsors/mulearn.png",
-    alt: "MuLearn",
-    height: 30,
-    width: 110,
-  },
-  {
-    id: 3,
-    name: "IEEE Kerala Section",
-    path: "/images/assets/sponsors/kerala-section-black.png",
-    alt: "MuLearn",
-    height: 30,
-    width: 137,
-  },
-  {
-    id: 4,
-    name: "IEEE YP AG Kerala Section",
-    path: "/images/assets/sponsors/yp-black.png",
-    alt: "MuLearn",
-    height: 60,
-    width: 106,
-  },
+    path: "/images/assets/sponsors/Axure_logo_400.svg",
+    alt: "axure",
+    height: 80,
+    width: 160,
+  }
 ];
 
-export default function SponsorsView() {
+export default function Sponsors() {
   return (
-    <>
-      <section className="bg-white max-w-screen-xl px-4 py-20 mx-auto lg:px-6 sm:py-16 lg:py-24">
-        <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
-          <h2 className="mb-8 lg:mb-16 text-3xl font-bold tracking-tight leading-tight text-center text-gray-900 md:text-4xl">
-            In Association with
-          </h2>
-          <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-4">
-            {sponsors?.map((item) => (
-              <div
-                className="flex justify-center items-center sm:mx-2 md:mx-0 lg:mx-0"
-                key={item?.id}
-              >
-                <Image
-                  src={item?.path}
-                  alt={item?.alt}
-                  height={item?.height}
-                  width={item?.width}
-                  className={item?.id === 3 ? "zoomed-image" : ""}
-                />
-              </div>
-            ))}
+    <div className="py-8 lg:py- mx-auto max-w-screen-xl px-4">
+      <h2 className="mb-8 lg:mb-16 text-3xl font-bold tracking-tight leading-tight text-slk-regular md:text-4xl text-center">
+        Our Sponsors
+      </h2>
+      <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-2">
+        {sponsors?.map((item) => (
+          <div
+            className="flex justify-center items-center sm:mx-2 md:mx-0 lg:mx-0"
+            key={item?.id}
+          >
+            <Image
+              src={item?.path}
+              alt={item?.alt}
+              height={item?.height}
+              width={item?.width}
+            />
           </div>
-        </div>
-      </section>
-    </>
+        ))}
+      </div>
+    </div>
   );
 }
